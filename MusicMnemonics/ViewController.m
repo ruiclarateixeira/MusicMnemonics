@@ -9,10 +9,15 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (strong, nonatomic) IBOutlet UITextField *inputText;
 
 @end
 
 @implementation ViewController
+
+- (IBAction)generateButton:(id)sender {
+    NSLog(@"Generate Mnemonics");
+}
 
 - (void)viewDidLoad
 {
