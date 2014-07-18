@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "LyricsInterface.h"
 
 @interface ViewController ()
 @property (strong, nonatomic) IBOutlet UITextField *inputText;
@@ -16,6 +17,7 @@
 @implementation ViewController
 
 - (IBAction)generateButton:(id)sender {
+    [LyricsInterface searchLyrics:@"This is just test"];
     NSLog(@"Generate Mnemonics");
 }
 

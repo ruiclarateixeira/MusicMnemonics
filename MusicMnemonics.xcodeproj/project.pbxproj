@@ -21,6 +21,7 @@
 		E746B2BB1943CA0B003DC3CA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E746B29D1943CA0B003DC3CA /* UIKit.framework */; };
 		E746B2C31943CA0B003DC3CA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E746B2C11943CA0B003DC3CA /* InfoPlist.strings */; };
 		E746B2C51943CA0B003DC3CA /* MusicMnemonicsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E746B2C41943CA0B003DC3CA /* MusicMnemonicsTests.m */; };
+		E77269E11971C8530049B8A5 /* LyricsInterface.m in Sources */ = {isa = PBXBuildFile; fileRef = E77269E01971C8530049B8A5 /* LyricsInterface.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		E746B2C01943CA0B003DC3CA /* MusicMnemonicsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MusicMnemonicsTests-Info.plist"; sourceTree = "<group>"; };
 		E746B2C21943CA0B003DC3CA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E746B2C41943CA0B003DC3CA /* MusicMnemonicsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MusicMnemonicsTests.m; sourceTree = "<group>"; };
+		E77269DE1971C0330049B8A5 /* LyricsInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LyricsInterface.h; sourceTree = "<group>"; };
+		E77269E01971C8530049B8A5 /* LyricsInterface.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LyricsInterface.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				E746B2AF1943CA0B003DC3CA /* ViewController.m */,
 				E746B2B11943CA0B003DC3CA /* Images.xcassets */,
 				E746B2A01943CA0B003DC3CA /* Supporting Files */,
+				E77269DE1971C0330049B8A5 /* LyricsInterface.h */,
+				E77269E01971C8530049B8A5 /* LyricsInterface.m */,
 			);
 			path = MusicMnemonics;
 			sourceTree = "<group>";
@@ -251,6 +256,7 @@
 			files = (
 				E746B2B01943CA0B003DC3CA /* ViewController.m in Sources */,
 				E746B2AA1943CA0B003DC3CA /* AppDelegate.m in Sources */,
+				E77269E11971C8530049B8A5 /* LyricsInterface.m in Sources */,
 				E746B2A61943CA0B003DC3CA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -456,6 +462,7 @@
 				E746B2CA1943CA0B003DC3CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E746B2CB1943CA0B003DC3CA /* Build configuration list for PBXNativeTarget "MusicMnemonicsTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +471,7 @@
 				E746B2CD1943CA0B003DC3CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
